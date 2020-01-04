@@ -1,6 +1,6 @@
-# dlnd-CycleGAN-Face_Generation
-This repo trains a CycleGAN to generate faces.  The motivation for this program was the 5th project in the Udacity Deep 
-Learning [Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101). 
+# dlnd-DCGAN-Face-Generation
+This repo trains a Deep Convolutional Generative Adversarial Network (DCGAN) to generate faces.  The motivation for this 
+program was the 5th project in the Udacity Deep Learning [Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101). 
 
 ## How to run on AWS
 This project can be executed directly from within the [dlnd_face_generation.ipynd](dlnd_face_generation.ipynb) Jupyter 
@@ -19,11 +19,11 @@ report and notebook were generated on AWS' Deep Learning AMI (Ubuntu 18.04) Vers
 
 1. Clone the repo.
    ```bash 
-   git clone https://github.com/daniel-fudge/dlnd-CycleGAN-Face_Generation.git```
+   git clone https://github.com/daniel-fudge/dlnd-DCGAN-Face-Generation.git```
 
 1. Download the input files (you can replaces with your own files) and unzip.
    ```bash
-   cd dlnd-CycleGAN-Face_Generation
+   cd dlnd-DCGAN-Face-Generation
    wget https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip
    unzip processed-celeba-small.zip
    rm *.zip
@@ -55,14 +55,13 @@ Although it is not recommended to train on a local PC, you may want to run local
 
 1. Clone repo to PC.
    ```shell script
-   git clone https://github.com/daniel-fudge/dlnd-CycleGAN-Face_Generation.git
+   git clone https://github.com/daniel-fudge/dlnd-DCGAN-Face-Generation.git
    ```
 
 1. Download [processed-celeba-small.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip) 
-and unzip into dlnd-CycleGAN-Face_Generation folder.
+and unzip into dlnd-DCGAN-Face-Generation folder.
 
-1. [OPTIONAL] Delete the zip file and any miscellaneous OS X files or folders such as `__MACOSX` or `.DS_Store`.
-There is also an unnecessary sub-folder `processed_celeba_small\celeba\New Folder With Items` that can be deleted.  
+1. [OPTIONAL] Delete the zip file and any miscellaneous OS X files or folders such as `__MACOSX` or `.DS_Store`.  
 
 1. [OPTIONAL] Install [Anaconda3](https://www.anaconda.com/distribution/).
 
@@ -85,7 +84,7 @@ There is also an unnecessary sub-folder `processed_celeba_small\celeba\New Folde
 
 1. Launch Jupyter.
    ```shell script
-   cd dlnd-CycleGAN-Face_Generation
+   cd dlnd-DCGAN-Face-Generation
    jupyter notebook
    ```
 
