@@ -1,5 +1,5 @@
 # dlnd-CycleGAN-Face_Generation
-This repo trains a CycleGAN generate faces.  The motivation for this program was the 2nd project in the Udacity Deep Learning 
+This repo trains a CycleGAN generate faces.  The motivation for this program was the 5th project in the Udacity Deep Learning 
 [Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101). 
 
 ## How to run on AWS
