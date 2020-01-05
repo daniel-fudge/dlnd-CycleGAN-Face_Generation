@@ -19,7 +19,8 @@ report and notebook were generated on AWS' Deep Learning AMI (Ubuntu 18.04) Vers
 
 1. Clone the repo.
    ```bash 
-   git clone https://github.com/daniel-fudge/dlnd-DCGAN-Face-Generation.git```
+   git clone https://github.com/daniel-fudge/dlnd-DCGAN-Face-Generation.git
+   ```
 
 1. Download the input files (you can replaces with your own files) and unzip.
    ```bash
@@ -33,7 +34,8 @@ report and notebook were generated on AWS' Deep Learning AMI (Ubuntu 18.04) Vers
 1. Activate Python 3 environment with PyTorch, CUDA 10 and MKL-DNN.  Then install cv2.
    ```bash 
    source activate pytorch_p36
-   conda install opencv```
+   conda install opencv
+   ```
 
 1. Start Jupyter notebook
    ```bash   
