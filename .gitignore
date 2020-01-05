@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 /processed_celeba_small/
 /processed_celeba_small_bu.zip
+/train_samples.pkl
