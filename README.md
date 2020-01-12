@@ -1,6 +1,6 @@
 # dlnd-DCGAN-Face-Generation
 This repo trains a Deep Convolutional Generative Adversarial Network (DCGAN) to generate faces.  The motivation for this 
-program was the 5th project in the Udacity Deep Learning [Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101). 
+program was the 4th project in the Udacity Deep Learning [Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101). 
 
 ## How to run on AWS
 This project can be executed directly from within the [dlnd_face_generation.ipynd](dlnd_face_generation.ipynb) Jupyter 
@@ -90,7 +90,7 @@ and unzip into dlnd-DCGAN-Face-Generation folder.
    jupyter notebook
    ```
 
-1. Open `dlnd_face_generation.ipynb`.
+1. Open [dlnd_face_generation.ipynb](dlnd_face_generation.ipynb).
 
 1. Read and/or run the cells at your leisure!!  :)
  
